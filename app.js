@@ -26,7 +26,7 @@ function vowelCount(strNew) {
 		}
 		intCount = 0;
 	}
-	console.log(valueMap);
+	return valueMap;
 }
 
 vowelCount('awesome'); // Map { 'a' => 1, 'e' => 2, 'o' => 1 }
